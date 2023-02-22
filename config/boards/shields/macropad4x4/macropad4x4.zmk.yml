@@ -1,0 +1,7 @@
+file_format: "1"
+id: macropad4x4
+name: Macropad 4x4 HW
+type: shield
+requires: [pro_micro]
+features:
+  - keys
