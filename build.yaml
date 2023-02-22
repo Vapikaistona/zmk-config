@@ -17,5 +17,5 @@ include:
     shield: splitkb_aurora_corne_left
   - board: nice_nano_v2
     shield: splitkb_aurora_corne_right
-  - board: macropad4x4
-    shield: nice_nano_v2
+  - board: nice_nano_v2
+    shield: macropad4x4
