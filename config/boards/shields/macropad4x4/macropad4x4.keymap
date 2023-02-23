@@ -18,7 +18,7 @@
                 &kp N7 &kp N8         &kp N9           &kp KP_MINUS
                 &kp N4 &kp N5         &kp N6           &kp KP_PLUS
                 &kp N1 &kp N2         &kp N3           &kp N0
-                &lt 1  &kp KP_DIVIDE  &kp KP_MULTIPLY  &kp ENTER
+                &to 1  &kp KP_DIVIDE  &kp KP_MULTIPLY  &kp ENTER
             >;
 
         };
@@ -28,7 +28,7 @@
                 &kp LC(Z) &kp LC(X) &kp LC(C)      &kp LC(V)
                 &kp LC(Y) &kp LC(A) &kp LS(DOWN)   &kp LC(S)
                 &kp TAB   &kp SPACE &kp BACKSPACE  &kp DELETE 
-                &lt 0     &lt 2     &kp KP_DOT     &kp ENTER
+                &to 0     &to 2     &kp KP_DOT     &kp ENTER
             >;
 
         };
@@ -38,16 +38,16 @@
                 &kp LG(Z) &kp LG(X) &kp LG(C)      &kp LG(V)
                 &kp LG(Y) &kp LG(A) &kp LS(DOWN)   &kp LG(S)
                 &kp TAB   &kp SPACE &kp BACKSPACE  &kp DELETE 
-                &lt 0    &lt 3     &kp KP_DOT     &kp ENTER
+                &to 0    &to 3     &kp KP_DOT      &kp ENTER
             >;
 
         };
         adjust_layer {
             bindings = <
-                &bt BT_CLR &none &none &none
-                &none &none &none &none
+                &bt BT_CLR   &none        &none        &none
+                &none        &none        &none        &none
                 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 0
-                &trans  &lt 1  &none &none
+                &trans       &to 1        &none        &none
             >;
 
         };
