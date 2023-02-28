@@ -4,6 +4,6 @@
 if SHIELD_MACROPAD4X4
 
 config ZMK_KEYBOARD_NAME
-    default "MacroPad"
+    default "macropad"
 
 endif
